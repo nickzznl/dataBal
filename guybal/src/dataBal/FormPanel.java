@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package dataBal;
 
 import javax.swing.*;
