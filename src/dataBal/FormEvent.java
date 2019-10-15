@@ -12,6 +12,7 @@ public class FormEvent extends EventObject {
     private String taxId;
     private boolean dutchCitizen;
     private String gender;
+    private Date DateofBirth;
 
     public FormEvent(Object source, String name, String occupation, int ageCat, String empCat, String taxId, boolean dutchCitizen, String gender)
     {
