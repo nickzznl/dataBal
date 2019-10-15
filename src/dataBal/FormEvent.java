@@ -1,5 +1,6 @@
 package dataBal;
 
+import java.util.Date;
 import java.util.EventObject;
 
 public class FormEvent extends EventObject {
@@ -11,7 +12,7 @@ public class FormEvent extends EventObject {
     private String taxId;
     private boolean dutchCitizen;
     private String gender;
-    private String Hallo;
+    private Date dateOfBirth;
 
     public FormEvent(Object source, String name, String occupation, int ageCat, String empCat, String taxId, boolean dutchCitizen, String gender)
     {
